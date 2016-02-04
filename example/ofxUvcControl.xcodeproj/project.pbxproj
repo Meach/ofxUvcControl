@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6516E301C63346900C57B34 /* ctrl-gen.c in Sources */ = {isa = PBXBuildFile; fileRef = A6516E281C63346900C57B34 /* ctrl-gen.c */; };
+		A6516E311C63346900C57B34 /* ctrl.c in Sources */ = {isa = PBXBuildFile; fileRef = A6516E291C63346900C57B34 /* ctrl.c */; };
+		A6516E321C63346900C57B34 /* device.c in Sources */ = {isa = PBXBuildFile; fileRef = A6516E2A1C63346900C57B34 /* device.c */; };
+		A6516E331C63346900C57B34 /* diag.c in Sources */ = {isa = PBXBuildFile; fileRef = A6516E2B1C63346900C57B34 /* diag.c */; };
+		A6516E341C63346900C57B34 /* frame.c in Sources */ = {isa = PBXBuildFile; fileRef = A6516E2C1C63346900C57B34 /* frame.c */; };
+		A6516E351C63346900C57B34 /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = A6516E2D1C63346900C57B34 /* init.c */; };
+		A6516E361C63346900C57B34 /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = A6516E2E1C63346900C57B34 /* misc.c */; };
+		A6516E371C63346900C57B34 /* stream.c in Sources */ = {isa = PBXBuildFile; fileRef = A6516E2F1C63346900C57B34 /* stream.c */; };
 		A69F523B1C623A03008F314B /* ofxUvcControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69F52391C623A03008F314B /* ofxUvcControl.cpp */; };
 		A69F52BB1C623D6E008F314B /* ofxKinectExtras.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69F52401C623D6E008F314B /* ofxKinectExtras.cpp */; };
 		A69F52BC1C623D6E008F314B /* ofxKinect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69F52431C623D6E008F314B /* ofxKinect.cpp */; };
@@ -56,6 +64,14 @@
 
 /* Begin PBXFileReference section */
 		3FE84304FD768A2758CBF5F7 /* libuvc_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = libuvc_internal.h; path = ../../../addons/ofxUvcControl/libs/libuvc/include/libuvc/libuvc_internal.h; sourceTree = SOURCE_ROOT; };
+		A6516E281C63346900C57B34 /* ctrl-gen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "ctrl-gen.c"; path = "../libs/libuvc/src/ctrl-gen.c"; sourceTree = "<group>"; };
+		A6516E291C63346900C57B34 /* ctrl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ctrl.c; path = ../libs/libuvc/src/ctrl.c; sourceTree = "<group>"; };
+		A6516E2A1C63346900C57B34 /* device.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = device.c; path = ../libs/libuvc/src/device.c; sourceTree = "<group>"; };
+		A6516E2B1C63346900C57B34 /* diag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = diag.c; path = ../libs/libuvc/src/diag.c; sourceTree = "<group>"; };
+		A6516E2C1C63346900C57B34 /* frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = frame.c; path = ../libs/libuvc/src/frame.c; sourceTree = "<group>"; };
+		A6516E2D1C63346900C57B34 /* init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = init.c; path = ../libs/libuvc/src/init.c; sourceTree = "<group>"; };
+		A6516E2E1C63346900C57B34 /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = misc.c; path = ../libs/libuvc/src/misc.c; sourceTree = "<group>"; };
+		A6516E2F1C63346900C57B34 /* stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stream.c; path = ../libs/libuvc/src/stream.c; sourceTree = "<group>"; };
 		A69F52391C623A03008F314B /* ofxUvcControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxUvcControl.cpp; path = ../src/ofxUvcControl.cpp; sourceTree = "<group>"; };
 		A69F523A1C623A03008F314B /* ofxUvcControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxUvcControl.h; path = ../src/ofxUvcControl.h; sourceTree = "<group>"; };
 		A69F52401C623D6E008F314B /* ofxKinectExtras.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxKinectExtras.cpp; sourceTree = "<group>"; };
@@ -128,6 +144,21 @@
 			children = (
 			);
 			name = local_addons;
+			sourceTree = "<group>";
+		};
+		A6516E381C63346D00C57B34 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A6516E281C63346900C57B34 /* ctrl-gen.c */,
+				A6516E291C63346900C57B34 /* ctrl.c */,
+				A6516E2A1C63346900C57B34 /* device.c */,
+				A6516E2B1C63346900C57B34 /* diag.c */,
+				A6516E2C1C63346900C57B34 /* frame.c */,
+				A6516E2D1C63346900C57B34 /* init.c */,
+				A6516E2E1C63346900C57B34 /* misc.c */,
+				A6516E2F1C63346900C57B34 /* stream.c */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 		A69F52381C6239D9008F314B /* src */ = {
@@ -343,6 +374,7 @@
 		F3631A913EE399900C3C3342 /* libuvc */ = {
 			isa = PBXGroup;
 			children = (
+				A6516E381C63346D00C57B34 /* src */,
 				B20A12B1B687704565D7510D /* include */,
 			);
 			name = libuvc;
@@ -449,19 +481,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6516E361C63346900C57B34 /* misc.c in Sources */,
 				A69F52C41C623D6E008F314B /* tilt.c in Sources */,
 				A69F52C21C623D6E008F314B /* loader.c in Sources */,
 				A69F52C11C623D6E008F314B /* keep_alive.c in Sources */,
 				A69F52C31C623D6E008F314B /* registration.c in Sources */,
 				A69F52C51C623D6E008F314B /* usb_libusb10.c in Sources */,
+				A6516E321C63346900C57B34 /* device.c in Sources */,
 				A69F52C01C623D6E008F314B /* flags.c in Sources */,
 				A69F52BF1C623D6E008F314B /* core.c in Sources */,
+				A6516E301C63346900C57B34 /* ctrl-gen.c in Sources */,
 				A69F52BD1C623D6E008F314B /* audio.c in Sources */,
 				A69F523B1C623A03008F314B /* ofxUvcControl.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				A69F52BB1C623D6E008F314B /* ofxKinectExtras.cpp in Sources */,
+				A6516E311C63346900C57B34 /* ctrl.c in Sources */,
+				A6516E331C63346900C57B34 /* diag.c in Sources */,
+				A6516E351C63346900C57B34 /* init.c in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				A69F52BC1C623D6E008F314B /* ofxKinect.cpp in Sources */,
+				A6516E371C63346900C57B34 /* stream.c in Sources */,
+				A6516E341C63346900C57B34 /* frame.c in Sources */,
 				A69F52BE1C623D6E008F314B /* cameras.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
